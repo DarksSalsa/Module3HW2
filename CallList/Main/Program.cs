@@ -1,0 +1,28 @@
+﻿using CallList;
+using System.Globalization;
+
+CallBook book = new(CultureInfo.CurrentCulture);
+book.Add("Henry", "380980258925");
+book.Add("Alice", "380981258925");
+book.Add("Bob", "380982258925");
+book.Add("Bill", "380980252425");
+book.Add("Bethy", "380980251725");
+book.Add("Amos", "380980251125");
+book.Add("Aaron", "380980251125");
+book.Add("aaron", "390888888888");
+book.Add("21aron", "390888888888");
+book.Add("45ron", "390888888888");
+book.Add("Боб", "390888888888");
+book.Add("Ливси", "390888888888");
+book.Add("Іновс", "390888888888");
+book.Add("Ыновс", "877218382883");
+book.ShowCallBook();
+var a = new CultureInfo("ua");
+book.SwitchLocale(a);
+book.ShowCallBook();
+book.Add("ҐЄc", "877218382883");
+book.Add("їajsjakq", "1233asdfq");
+book.ShowCallBook();
+var b = new CultureInfo("sp");
+book.SwitchLocale(b);
+book.ShowCallBook();
