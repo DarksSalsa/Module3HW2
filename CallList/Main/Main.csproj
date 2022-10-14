@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CallList\CallList.csproj" />
-  </ItemGroup>
-
 </Project>
